@@ -11,7 +11,6 @@ const projects = ref<Tables<'projects'>[] | null>(null)
   }
 
   projects.value = data
-  console.log('projects', projects.value)
 })()
 </script>
 
