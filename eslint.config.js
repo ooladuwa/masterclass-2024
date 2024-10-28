@@ -16,4 +16,10 @@ export default [
   ...pluginVue.configs['flat/recommended'],
   ...vueTsEslintConfig(),
   skipFormatting,
+  {
+    rules: {
+      ...rules,
+      'vue/multi-word-component-names': 'off',
+    },
+  },
 ]
